@@ -15,8 +15,13 @@
 <body>
 <div id="app">
     <div id="title">
-        <img src="/public/logo.png">
-        <h1>Vue.js Cinema</h1>
+        <img src="/public/logo.png">       
+    </div>
+    <div id="overview">
+        <div id="main">
+            <movie-list></movie-list>
+            <movie-filter v-on:check-filter="checkFilter"></movie-filter>
+        </div>
     </div>
 </div>
 <script src="/dist/build.js"></script>
