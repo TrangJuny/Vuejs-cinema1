@@ -34,6 +34,7 @@ new Vue({
                 if(index>-1) this[category].splice(index,1);
             }
         }
+        // d
     },
     components:{
         MovieList,
