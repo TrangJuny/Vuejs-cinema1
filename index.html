@@ -18,8 +18,8 @@
         <img src="/public/logo.png">       
     </div>
     <div id="overview">
-        <div id="main">
-            <movie-list></movie-list>
+        <div class="main">
+            <movie-list v-bind:genre="genre" v-bind:time="time" v-bind:movies="movies" v-bind:day="day"></movie-list>
             <movie-filter v-on:check-filter="checkFilter"></movie-filter>
         </div>
     </div>
