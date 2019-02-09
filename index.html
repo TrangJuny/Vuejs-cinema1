@@ -16,6 +16,15 @@
 <div id="app">
     <div id="title">
         <img src="/public/logo.png">       
+<<<<<<< HEAD
+=======
+    </div>
+    <div id="overview">
+        <div class="main">
+            <movie-list v-bind:genre="genre" v-bind:time="time" v-bind:movies="movies" v-bind:day="day"></movie-list>
+            <movie-filter v-on:check-filter="checkFilter"></movie-filter>
+        </div>
+>>>>>>> a0a8add60118464ff61c8b1bd43d2b4270d38126
     </div>
     
     <router-view v-bind:genre="genre" 
