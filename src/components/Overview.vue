@@ -10,7 +10,6 @@
     </div>
 </template>
 
-
 <script>
     import MovieList from './MovieList.vue';
     import MovieFilter from './MovieFilter.vue';
